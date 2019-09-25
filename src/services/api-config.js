@@ -1,5 +1,5 @@
 const configService = {
-  apiUrl: 'http://mddb.test/api'
+  apiUrl: 'http://localhost:3000'
 }
 
 export default configService

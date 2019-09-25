@@ -1,8 +1,8 @@
 {
-  "name": "trinitas_frontend",
+  "name": "mmdb",
   "version": "1.0.0",
-  "description": "A syscap implementation",
-  "author": "Rodolfo Montes <rmontes@concentrico.com.mx>",
+  "description": "Research System",
+  "author": "Ramsés Muñoz, Juan Carrillo",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
