@@ -25,11 +25,11 @@ export default {
       title: 'Estudios',
       headers: [
         { text: 'Id', value: 'id' },
-        { text: 'Uuid', value: 'id' },
-        { text: 'Nombre', value: 'fullname' },
-        { text: 'Descripcion', value: 'description' },
-        { text: 'Positions', value: 'investments_count' },
-        { text: 'Ns', value: 'investments_count' }
+        { text: 'Titulo', value: 'title' },
+        { text: 'Descripcion', value: 'short_title' },
+        { text: 'Autores', value: 'authors_list' },
+        { text: 'Coautores', value: 'coauthors_list' },
+        { text: 'Vistas', value: 'views' }
       ],
       items: [],
       filtered_items: [],

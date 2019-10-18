@@ -8,7 +8,7 @@ const researchesService = {}
  * @return researches
  */
 researchesService.list = function (params) {
-  return apiService.get(`/investor`, { params }).then(res => res.data)
+  return apiService.get(`/studies`, { params }).then(res => res.data)
 }
 
 export default researchesService
